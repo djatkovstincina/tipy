@@ -1,0 +1,28 @@
+//Use $font-path as path to fonts folder
+
+@font-face {
+	font-family: 'Campton';
+	src: local('Campton Bold'), local('Campton-Bold'),
+		url('#{$font-path}/Campton/Campton-Bold.woff') format('woff'),
+		url('#{$font-path}/Campton/Campton-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Campton';
+	src: local('Campton SemiBold'), local('Campton-SemiBold'),
+		url('#{$font-path}/Campton/Campton-SemiBold.woff') format('woff'),
+		url('#{$font-path}/Campton/Campton-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Campton';
+	src: local('Campton'), local('Campton-Book'),
+		url('#{$font-path}/Campton/Campton-Book.woff') format('woff'),
+		url('#{$font-path}/Campton/Campton-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,68 @@
+// Home page - Join section
+.join {
+    background: #fff;
+    padding: 40px 0 160px;
+    
+    @media #{$md-up} {
+        padding: 110px 0 195px;
+    }
+    
+    &-banner {
+        background: #F6B213;
+        border-radius: 32px;
+        padding: 32px;
+        text-align: center;
+        min-height: 680px;
+        
+        @media #{$md-up} {
+            min-height: auto;
+            text-align: left;
+        }
+    }
+    
+    &-title {
+        color: #fff;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 16px;
+        
+        @media #{$md-up} {
+            max-width: 320px;
+        }
+    }
+    
+    &-text {
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;        
+        max-width: 550px;
+        margin-bottom: 24px;
+    }
+
+    .primary-btn {
+        margin: 46px auto 0;
+
+        @media #{$md-up} {
+            margin: 0;
+        }
+    }
+    
+    &-image {
+        position: absolute;
+        bottom: -160px;
+        right: calc( 50% - 280px);
+        max-width: 420px;
+        
+        @media #{$md-up} {
+            top: -19px;
+            right: -60px;
+            max-width: 420px;
+        }
+        
+        @media #{$lg-up} {
+            top: -145px;
+            right: 0;
+            max-width: 529px;
+        }
+    }
+}
