@@ -1,6 +1,3 @@
-# Ignore all themes except the custom one
-wp-content/themes/*
-
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 
